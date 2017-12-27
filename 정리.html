@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>head는 바디를 설명하는 태그들
+  <tile>웹 제목</tile>
+  <meta charset="utf-8"> 웹을 utf-8로 열게함(한글쓸수있)
+</head>
+
+<body>바디는 본문을 설명하는 태그
+  <strong> 굵기 </strong>
+  <u>underline 밑줄</u>
+  <h1>큰 글씨 제목 1~6까지</h1>
+  <br>엔터
+  <p style="margin-top:45px;">'단락'에 css넣어서 45px 여백넣기</p>
+  <img src="nanro.jpg" width="40%"> 이미지넣기
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE"
+    frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+  </iframe> 동영상 넣기
+
+  <p>
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-2.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </p>
+
+  <ul>
+  <li>리스트, ul은 li의 경계짓기 부모태그/ol은 1. 2. 넣어줌</li>
+  </ul>
+  <a href="https://www.naver.com/" target="_blank" title="네이버">
+    네이버링크, _blank 새탭, 타이틀은 마우스 갖다대면 뜨는 것
+  </a>
+</body>
+</html>
